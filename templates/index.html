@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Tweet Analyzer</h1>
+    <h4 style="text-align: center">Enter the brand name for tweet analysis</h4>
+    {% if error %}
+        <p class=error><strong>Error:</strong> {{ error }}
+    {% endif %}
+    <form action="/" method="POST">
+        <input type="text" name="content" id="content">
+        <input type="submit" value="Analyze">
+    </form>
+    <br>
+    <table>
+        <tr>
+            <th>Username</th>
+            <th>Tweet</th>
+            <th>Textblob Sentiment</th>
+            <th>VADER Sentiment</th>
+        </tr>
+        {% for tweet in tweets %}
+            <tr>
+                <td>{{ tweet.username }}</td>
+                <td>{{ tweet.text }}</td>
+                <td>{{ textblobGetLabel(tweet.text) }}</td>
+                <td>{{ vaderGetLabel(tweet.text) }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
