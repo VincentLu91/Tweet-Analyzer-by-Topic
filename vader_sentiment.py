@@ -3,7 +3,7 @@ from nltk.corpus import stopwords
 import re
 import string
 import os
-from os import listdir
+from textblob.translate import Translator
 from langdetect import detect
 
 def vaderGetPolarity(text):
@@ -13,7 +13,9 @@ def vaderGetPolarity(text):
 
 def vaderGetLabel(text):
     if detect(text) != 'en':
-        return 'Non-English'
+        translator = Translator()
+        #return 'Non-English'
+        text = translator.translate(text, to_lang='en')
     if vaderGetPolarity(text) <= - 0.05:
         return 'Negative'
     elif vaderGetPolarity(text) >= 0.05:

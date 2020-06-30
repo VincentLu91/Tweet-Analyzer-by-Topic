@@ -3,7 +3,7 @@ from nltk.corpus import stopwords
 import re
 import string
 import os
-from os import listdir
+from textblob.translate import Translator
 from langdetect import detect
 
 def textblobGetPolarity(text):
@@ -11,7 +11,9 @@ def textblobGetPolarity(text):
 
 def textblobGetLabel(text):
     if detect(text) != 'en':
-        return 'Non-English'
+        translator = Translator()
+        #return 'Non-English'
+        text = translator.translate(text, to_lang='en')
     if textblobGetPolarity(text) < 0:
         return 'Negative'
     elif textblobGetPolarity(text) == 0:
