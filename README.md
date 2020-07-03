@@ -1,4 +1,4 @@
-# analyze_tweets_proj
+# Tweet Analyzer by Topic
 
 The Tweet Analyzer takes in any topic entered by the user and returns the 10 most recent tweets regarding a topic along with their timestamps, username, and their sentiment (negative, neutral, or positive).
 
