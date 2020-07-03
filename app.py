@@ -1,8 +1,7 @@
-from flask import Flask, render_template, flash, request, redirect
-from datetime import datetime
+from flask import Flask, render_template, request
 import GetOldTweets3 as got
-from textblob_sentiment import textblobGetPolarity, textblobGetLabel
-from vader_sentiment import vaderGetPolarity, vaderGetLabel
+from textblob_sentiment import textblobGetLabel
+from vader_sentiment import vaderGetLabel
 
 app = Flask(__name__)
 
