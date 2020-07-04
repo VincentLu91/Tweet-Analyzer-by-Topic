@@ -11,7 +11,7 @@ Libraries and their versions are included in requirements.txt. To install the vi
 ```
 python3 -m venv env # or python -m venv env
 source env/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt # or pip install -r requirements.txt
 ```
 
 At this point the environment should be set up with required libraries to run the application. To run the app, enter:
