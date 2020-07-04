@@ -20,7 +20,7 @@ python app.py
 ```
 
 Then in the browser, enter ```localhost:5000``` - you will see a prompt to enter the topic.
-![martymcfly](https://user-images.githubusercontent.com/3411100/86503460-52be0280-bd7c-11ea-82ac-5beb569c06d1.png)
+![martymcfly](https://user-images.githubusercontent.com/3411100/86503822-d0cfd880-bd7f-11ea-910b-c2d0163544da.png)
   
 You could enter any topic you like, and find the 10 most recent tweets about the topic you entered, along with the attitudes expressed.
 ![martymcfly](https://user-images.githubusercontent.com/3411100/86503525-fe675280-bd7c-11ea-927c-ad72efa21cdd.png)
