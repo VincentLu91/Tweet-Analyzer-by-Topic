@@ -6,13 +6,13 @@ The Tweet Analyzer uses both Textblob and VADER sentiment analysis algorithms an
 
 The original intention was to build the analyzer for companies to analyze tweets about them, but due to the scope of the project, it is revised so that a user can input any topic and it returns results. This is a more general use case and helpful feasibility study to assess any topic being analyzed. If more tweets returned about a given topic is negative, then it stands to reason that there is something about said topic that is inherently negative, and gives users insights into the sentiments of a topic.
 
-## How to use the deployed data app
+## How to access the data app
 
-### Heroku App
+### Deployed App
 
-You can use the following link here: https://analyze-tweets-proj.herokuapp.com
+You can use the following link here: https://analyze-tweets-proj.herokuapp.com. 
 
-### Alternatively, you can use the application in development environment
+### Alternatively, you can access the application in development environment
 
 Libraries and their versions are included in requirements.txt. To install the virtual environment, run the following:
 
@@ -27,7 +27,10 @@ At this point the environment should be set up with required libraries to run th
 python app.py
 ```
 
-Then in the browser, enter ```localhost:5000``` - you will see a prompt to enter the topic.
+Then in the browser, enter ```localhost:5000``` - 
+
+## How to use the data app
+You will see a prompt to enter the topic.
 ![martymcfly](https://user-images.githubusercontent.com/3411100/86503822-d0cfd880-bd7f-11ea-910b-c2d0163544da.png)
   
 You could enter any topic you like, and find the 10 most recent tweets about the topic you entered, along with the attitudes expressed.
