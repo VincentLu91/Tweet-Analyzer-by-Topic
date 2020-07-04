@@ -33,7 +33,7 @@ Then in the browser, enter ```localhost:5000```
 
 ## How to use the data app
 You will see a prompt to enter the topic.
-![martymcfly](https://user-images.githubusercontent.com/3411100/86503822-d0cfd880-bd7f-11ea-910b-c2d0163544da.png)
+![martymcfly](https://user-images.githubusercontent.com/3411100/86506250-b0ae1280-bd9b-11ea-9771-fe2d92197bf0.png)
   
 You could enter any topic you like, and find the 10 most recent tweets about the topic you entered, along with the attitudes expressed.
 For example, I entered 'samsung', and here are the recent tweets:
