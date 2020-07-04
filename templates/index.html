@@ -23,6 +23,7 @@
             <th>Username</th>
             <th>Tweet</th>
             <th>Date and Time of Tweet</th>
+            <th>Tweet Link</th>
             <th>Textblob Sentiment</th>
             <th>VADER Sentiment</th>
         </tr>
@@ -31,6 +32,7 @@
                 <td>{{ tweet.username }}</td>
                 <td>{{ tweet.text }}</td>
                 <td>{{ tweet.date }}</td>
+                <td>{{ tweet.permalink }}</td>
                 <td>{{ textblobGetLabel(tweet.text) }}</td>
                 <td>{{ vaderGetLabel(tweet.text) }}</td>
             </tr>

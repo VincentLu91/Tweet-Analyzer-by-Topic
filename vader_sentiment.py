@@ -13,7 +13,7 @@ def vaderGetLabel(text):
             translator = Translator(to_lang="en")
             text = translator.translate(text)
     except:
-        return 'Cannot be translated'
+        return 'Cannot be processed'
     if vaderGetPolarity(text) <= - 0.05:
         return 'Negative'
     elif vaderGetPolarity(text) >= 0.05:

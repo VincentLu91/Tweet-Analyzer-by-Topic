@@ -11,7 +11,7 @@ def textblobGetLabel(text):
             translator = Translator(to_lang="en")
             text = translator.translate(text)
     except:
-        return 'Cannot be translated'
+        return 'Cannot be processed'
     if textblobGetPolarity(text) < 0:
         return 'Negative'
     elif textblobGetPolarity(text) == 0:
