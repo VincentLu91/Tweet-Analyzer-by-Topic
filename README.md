@@ -37,4 +37,4 @@ You will see a prompt to enter the topic.
   
 You could enter any topic you like, and find the 10 most recent tweets about the topic you entered, along with the attitudes expressed.
 For example, I entered 'samsung', and here are the recent tweets:
-![martymcfly](https://user-images.githubusercontent.com/3411100/86503845-112f5680-bd80-11ea-81c8-7c57d72114e0.png)
+![martymcfly](https://user-images.githubusercontent.com/3411100/86506278-f5d24480-bd9b-11ea-8543-0614f47b67e3.png)
