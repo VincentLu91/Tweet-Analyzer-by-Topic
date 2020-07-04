@@ -29,7 +29,7 @@ At this point the environment should be set up with required libraries to run th
 python app.py
 ```
 
-Then in the browser, enter ```localhost:5000``` - 
+Then in the browser, enter ```localhost:5000```
 
 ## How to use the data app
 You will see a prompt to enter the topic.
