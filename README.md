@@ -9,7 +9,7 @@ The original intention was to build the analyzer for companies to analyze tweets
 Libraries and their versions are included in requirements.txt. To install the virtual environment, run the following:
 
 ```
-python3 -m venv env # of python -m venv env
+python3 -m venv env # or python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
