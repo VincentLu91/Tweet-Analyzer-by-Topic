@@ -23,7 +23,8 @@ Then in the browser, enter ```localhost:5000``` - you will see a prompt to enter
 ![martymcfly](https://user-images.githubusercontent.com/3411100/86503822-d0cfd880-bd7f-11ea-910b-c2d0163544da.png)
   
 You could enter any topic you like, and find the 10 most recent tweets about the topic you entered, along with the attitudes expressed.
-![martymcfly](https://user-images.githubusercontent.com/3411100/86503525-fe675280-bd7c-11ea-927c-ad72efa21cdd.png)
+For example, I entered 'samsung', and here are the recent tweets:
+![martymcfly](https://user-images.githubusercontent.com/3411100/86503845-112f5680-bd80-11ea-81c8-7c57d72114e0.png)
 
 The alternative to running the app in a virtual environment is to directly access the deployed data app here:
 
