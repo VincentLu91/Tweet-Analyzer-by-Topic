@@ -16,7 +16,7 @@ def index():
             return render_template('index.html', error=error)
         tweetCriteria = got.manager.TweetCriteria().setQuerySearch(topicName).setMaxTweets(10)
         tweets = got.manager.TweetManager.getTweets(tweetCriteria)
-        return render_template('index.html', tweets=tweets, classifiers=classifiers)
+        return render_template('index.html', tweets=tweets, classifiers=classifiers, topicName=topicName)
     else:
         return render_template('index.html')
 
