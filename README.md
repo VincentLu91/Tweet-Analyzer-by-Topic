@@ -20,9 +20,14 @@ python app.py
 ```
 
 Then in the browser, enter ```localhost:5000``` - you will see a prompt to enter the topic.
+/Users/vincentlu/Downloads/Screen Shot 2020-07-03 at 10.13.25 PM.png
   
 You could enter any topic you like, and find the 10 most recent tweets about the topic you entered, along with the attitudes expressed.
 
 The alternative to running the app in a virtual environment is to directly access the deployed data app here:
 
 https://analyze-tweets-proj.herokuapp.com
+
+
+
+
