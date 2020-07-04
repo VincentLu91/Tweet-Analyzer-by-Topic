@@ -19,8 +19,9 @@ At this point the environment should be set up with required libraries to run th
 python app.py
 ```
 
-Then in the browser, enter ```localhost:5000``` - you should see the interface:
-<insert image>
+Then in the browser, enter ```localhost:5000``` - you will see a prompt to enter the topic.
   
 You could enter any topic you like, and find the 10 most recent tweets about the topic you entered, along with the attitudes expressed.
-<insert image>
+
+The alternative to running the app in a virtual environment is to directly access the deployed data app here:
+https://analyze-tweets-proj.herokuapp.com
