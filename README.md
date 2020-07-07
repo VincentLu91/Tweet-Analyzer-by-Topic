@@ -6,7 +6,7 @@ The Tweet Analyzer uses both Textblob and VADER sentiment analysis algorithms an
 
 The original intention was to build the analyzer for companies to analyze tweets about them, but due to the scope of the project, it was revised so that a user can input any topic and it returns results. This is a more general use case and feasibility study to assess any topic being analyzed. If more tweets returned about a given topic is negative, then it stands to reason that there is something about said topic that is inherently negative, and gives users insights into the sentiments of a topic.
 
-I have elaborated on Tweet Analyzer in the following blog post: https://vincentlu91.github.io/2020/06/29/Sentiment-Analysis-on-Tweets-of-Companies.html
+I have elaborated on the Tweet Analyzer in the following blog post: https://vincentlu91.github.io/2020/06/29/Sentiment-Analysis-on-Tweets-of-Companies.html
 
 ## How to access the data app
 
