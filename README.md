@@ -1,6 +1,6 @@
 # Tweet Analyzer by Topic
 
-Written in Flask, the Tweet Analyzer takes in any topic entered by the user and returns the 10 most recent tweets regarding a topic along with their timestamps, username, and their sentiment (negative, neutral, or positive).
+Written in Flask, the Tweet Analyzer takes in any topic entered by the user and returns the 10 most recent tweets regarding a topic along with their timestamps, username, permalinks, and their sentiment (negative, neutral, or positive).
 
 The Tweet Analyzer uses both Textblob and VADER sentiment analysis algorithms and compares between the two. It also uses a translator library - [translate](https://pypi.org/project/translate/) to translate non-English tweets in the backend before applying the algorithms to determine whether it is negative, neutral, or positive. 
 
