@@ -14,6 +14,8 @@ I have elaborated on the Tweet Analyzer in the following blog post: https://vinc
 
 You can use the following link here: https://analyze-tweets-proj.herokuapp.com. 
 
+Update (October 7 2022): when scraping tweets in Heroku, there would be a H13 desc="Connection closed without response" error. You may want to consider testing the application in development environment. The data application is otherwise live in production
+
 ### Alternatively, you can access the application in development environment
 
 Libraries and their versions are included in requirements.txt. To install the virtual environment, run the following:
